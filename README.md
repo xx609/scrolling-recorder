@@ -1,12 +1,18 @@
 # Scroll Counter
 
-A Windows Python script that counts vertical scrolling from a mouse wheel or a Precision Touchpad. It keeps working while another application is focused.
+A Windows Python script that counts vertical scrolling from a mouse wheel or a Precision Touchpad. 
+
+Working globally, regardless of focused application.
 
 ## Requirements
 
 - **Windows ONLY**
 - Python 3.10 or newer
 - No third-party packages
+
+## Run
+
+Go straightforward to .exe release. Notice executable only allows `down` mode.
 
 ## Choose a Mode
 
@@ -18,13 +24,3 @@ COUNT_MODE = "down"
 
 - `"down"` counts downward scrolling only.
 - `"both"` counts scrolling in both directions.
-
-## Run
-
-```powershell
-python scroll_counter.py
-```
-
-Scroll with a mouse wheel or use two fingers on the touchpad. Press `Ctrl+C` to stop.
-
-The result is shown in normalized pixels. It may not exactly match the distance shown inside every application because applications handle scrolling differently.
