@@ -1,1 +1,10 @@
 REQUIREMENTS.md
+
+# PyInstaller build artifacts
+build/
+dist/
+
+# PyInstaller log files
+*.manifest
+*.spec.log
+*.spec
